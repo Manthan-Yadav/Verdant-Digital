@@ -128,9 +128,9 @@ $result2 = mysqli_query($conn, $sql);
                     </h2>
                     <div class="mb-4" style="width: 80px; height: 2px; background-color: var(--primary-color);"></div>
                     <p class="mb-4">
-                       "Growth begins with a vision.
-Innovation turns that vision into reality.
-Success is what we build together."
+                        "Growth begins with a vision.
+                        Innovation turns that vision into reality.
+                        Success is what we build together."
                     </p>
                 </div>
                 <div class="col-lg-7">
@@ -142,7 +142,8 @@ Success is what we build together."
                                 </div>
                                 <h3 class="h5 fw-bold text-white mb-3">Our Mission</h3>
                                 <p class="card-text mb-0">
-                                    To empower businesses with innovative digital solutions that inspire growth, build trust, and create lasting value.
+                                    To empower businesses with innovative digital solutions that inspire growth, build
+                                    trust, and create lasting value.
                                 </p>
                             </div>
                         </div>
@@ -153,7 +154,8 @@ Success is what we build together."
                                 </div>
                                 <h3 class="h5 fw-bold text-white mb-3">Our Vision</h3>
                                 <p class="card-text mb-0">
-                                    To become a trusted digital consulting partner, helping businesses embrace technology and succeed in an ever-evolving digital world.
+                                    To become a trusted digital consulting partner, helping businesses embrace
+                                    technology and succeed in an ever-evolving digital world.
                                 </p>
                             </div>
                         </div>
@@ -169,13 +171,20 @@ Success is what we build together."
         <div class="container px-4 py-5">
             <div class="row align-items-center gy-5 text-start">
                 <div class="col-lg-6">
-                    <h2 class="h1 fw-bold text-white mb-4" style="font-family: var(--font-headings);">Turning ambition into digital achievement.</h2>
+                    <h2 class="h1 fw-bold text-white mb-4" style="font-family: var(--font-headings);">Turning ambition
+                        into digital achievement.</h2>
                     <div class="mb-4" style="width: 80px; height: 2px; background-color: var(--primary-color);"></div>
                     <p class="mb-3">
-                        At Verdant Digital, we help businesses grow through innovative digital solutions and strategic consulting. Our mission is to empower startups, small businesses, and enterprises with technology-driven services that enhance their online presence, improve operational efficiency, and accelerate business growth.
+                        At Verdant Digital, we help businesses grow through innovative digital solutions and strategic
+                        consulting. Our mission is to empower startups, small businesses, and enterprises with
+                        technology-driven services that enhance their online presence, improve operational efficiency,
+                        and accelerate business growth.
                     </p>
                     <p class="mb-4">
-                        We specialize in web development, digital consulting, branding, UI/UX design, and customized business solutions tailored to each client's unique goals. Our team combines creativity, technical expertise, and industry insights to deliver high-quality, scalable, and user-focused solutions.
+                        We specialize in web development, digital consulting, branding, UI/UX design, and customized
+                        business solutions tailored to each client's unique goals. Our team combines creativity,
+                        technical expertise, and industry insights to deliver high-quality, scalable, and user-focused
+                        solutions.
                     </p>
                     <div class="d-flex gap-5">
                         <div>
@@ -391,7 +400,9 @@ Success is what we build together."
                     Let's Build <span style="color: var(--accent-color);">Something Great</span>
                 </h2>
                 <p class="lead mx-auto" style="max-width: 600px;">
-                    "Every successful digital transformation begins with a conversation. Tell us about your business goals, challenges, or ideas, and our experts will help you craft practical, scalable, and future-ready solutions tailored to your vision."
+                    "Every successful digital transformation begins with a conversation. Tell us about your business
+                    goals, challenges, or ideas, and our experts will help you craft practical, scalable, and
+                    future-ready solutions tailored to your vision."
                 </p>
             </div>
 
@@ -417,7 +428,7 @@ Success is what we build together."
                                     style="font-family: var(--font-subheadings); font-weight: 700; font-size: 0.75rem; letter-spacing: 1px;">
                                     DELHI HEADQUARTERS</h4>
                                 <p class="small mb-0">RWA Colony, Janakpuri
-Delhi, 110058</p>
+                                    Delhi, 110058</p>
                             </div>
                         </div>
 
@@ -617,30 +628,6 @@ Delhi, 110058</p>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom Script -->
     <script src="js/script.js"></script>
-
-    <?php
-    if (isset($_GET['contact'])) {
-        ?>
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                alert("Thank you! Your consultation request has been sent successfully.");
-            });
-        </script>
-        <?php
-    }
-    ?>
-
-    <?php
-    if (isset($_GET['review'])) {
-        ?>
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                alert("Thank you! Your review has been submitted successfully.");
-            });
-        </script>
-        <?php
-    }
-    ?>
 </body>
 
 </html>
