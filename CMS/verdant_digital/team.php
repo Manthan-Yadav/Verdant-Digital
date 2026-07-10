@@ -225,31 +225,5 @@ $result = mysqli_query($conn, $sql);
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom Script -->
     <script src="js/script.js"></script>
-    
-    <?php
-    if(isset($_GET['contact']))
-    {
-    ?>
-    <script>
-    document.addEventListener("DOMContentLoaded",function(){
-        alert("Thank you! Your consultation request has been sent successfully.");
-    });
-    </script>
-    <?php
-    }
-    ?>
-
-    <?php
-    if(isset($_GET['review']))
-    {
-    ?>
-    <script>
-    document.addEventListener("DOMContentLoaded",function(){
-        alert("Thank you! Your review has been submitted successfully.");
-    });
-    </script>
-    <?php
-    }
-    ?>
 </body>
 </html>
